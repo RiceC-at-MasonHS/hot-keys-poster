@@ -1,0 +1,98 @@
+body{
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #ffcccc, #ffdd99, #ffffcc, #ccffcc, #cceeff, #ccccff, #e6ccff);
+}
+
+main{
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+footer{
+    text-align: center;
+    padding: 20px 0;
+    color: #282828ab;
+}
+
+.key{
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 2px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #f0f0f0;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 990;
+    letter-spacing: 0.07em;
+    text-align: center;
+    cursor: default;
+    text-transform: uppercase;
+}
+
+.letter{
+    color: black;
+    font-weight: 750;
+    font-size: 1.5em;
+    position: relative;
+    top: 4px;
+}
+
+.letter::before, .letter::after{
+    content: '`';
+}
+.stacked {
+    display: inline-flex;
+    align-items: center;
+    transform: translateY(-0.35em); /* adjusted to keep item inline */
+    text-align: center;
+    font-weight: bolder;
+    line-height: 0.9;
+    padding: 3px 4px;
+    margin: -0.5em 2px; /* so it does not make the line taller */
+    border: 1px solid #2a2a2acb;
+    border-radius: 3px;
+    background-color: #030303;
+    color: #f0f0f0;
+
+}
+
+.key:hover{
+    background-color: #f0f0f0;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* default space for 'short' hotkey combos
+section > p{
+    padding-left: 30%;
+}*/
+
+h1{
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+h1 + p{
+    font-size: 1.4em;
+    font-style: italic;
+    color: #333;
+    text-align: center;
+    border-bottom: 2px solid #333;
+}
+
+h2{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    text-transform: capitalize;
+    border-bottom: 2px solid #333;
+
+}
