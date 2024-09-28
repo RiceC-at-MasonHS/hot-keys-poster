@@ -34,7 +34,13 @@ footer{
     text-transform: uppercase;
 }
 
+.key:has(img){
+    padding: 8px;
+    margin-bottom: -13px;
+}
+
 .letter{
+    /* font-family: 'Consolas', Courier, monospace; */
     color: black;
     font-weight: 750;
     font-size: 1.5em;
@@ -43,7 +49,7 @@ footer{
 }
 
 .letter::before, .letter::after{
-    content: '`';
+    content: "'";
 }
 .stacked {
     display: inline-flex;
