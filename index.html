@@ -18,7 +18,6 @@
     <main>
         <h1>🔥🔥 HOT KEYS 🔥🔥</h1>
         <p>Knowing how to use keyboard shortcuts can seriously speed up your work.</p>
-        <p>Magnifying glass: <i class="fa-solid fa-magnifying-glass"></i></p>
         <div id="all_sections">
             <section>
                 <h2> mostly everywhere </h2>
@@ -26,6 +25,7 @@
                 <p><span class="key">ctrl</span> + <span class="letter">C</span> = Copy</p>
                 <p><span class="key">ctrl</span> + <span class="letter">X</span> = Cut</p>
                 <p><span class="key">ctrl</span> + <span class="letter">V</span> = Paste</p>
+                <p><span class="key">ctrl</span> + <span class="key">shift</span> + <span class="letter">V</span> = Paste as plain text</p>
                 <p><span class="key">ctrl</span> + <span class="letter">Z</span> = Undo</p>
                 <p><span class="key">ctrl</span> + <span class="letter">Y</span> = Redo</p>
                 <!-- <p><span class="key">ctrl</span> + <span class="key">shift</span> + <span class="letter">Z</span> = Redo (if not `Y`)</p>
@@ -51,9 +51,9 @@
                 <p><span class="key">end</span> = Jump caret to end of line</p>
                 <p><span class="key">backspace</span> = Remove 'char's <em>left</em> of caret</p>                
                 <p><span class="key">delete</span> = Remove 'char's <em>right</em> of caret</p>  
-                <p><span class="key">shift</span> + <span class="stacked">arrow<br>key</span> = Select from caret</p>                
-                <p><span class="key">ctrl</span> + <span class="stacked">arrow<br>key</span> = Jump caret to next word</p> 
-                <p><span class="key">ctrl</span> + <span class="key">shift</span> + <span class="stacked">arrow<br>key</span> = Jump caret by word, while selecting</p>
+                <p><span class="key">shift</span> + <span class="stacked">any<br>arrow</span> = Select from caret</p>                
+                <p><span class="key">ctrl</span> + <span class="stacked">any<br>arrow</span> = Jump caret to next word</p> 
+                <p><span class="key">ctrl</span> + <span class="key">shift</span> + <span class="stacked">any<br>arrow</span> = Jump caret by word, while selecting</p>
                 <p><span class="key">alt</span> + <span class="key">shift</span> + <span class="stacked">up/dn<br>arrow</span> = Move line of text up or down</p>
                 <p><span class="stacked">left<br>click</span> + <span class="stacked">left<br>click</span> = Select whole word</p>
                 <p><span class="stacked">left<br>click</span> + <span class="stacked">left<br>click</span> + <span class="stacked">left<br>click</span> = Select whole line</p>
@@ -62,50 +62,63 @@
                 <h2> Browsers/ Google Chrome </h2>            
                 <p><span class="key">Space</span> = move/scroll down the page </p>
                 <p><span class="key">Space</span> + <span class="key">shift</span> = move/scroll up the page </p>
+                <p><span class="key">shift</span> + <span class="key">alt</span> + <span class="letter">B</span> = highlight the bookmarks bar</p>
                 <p><span class="key">ctrl</span> + <span class="letter">R</span> = Refresh page (basic, from cache) </p>
                 <p><span class="key">ctrl</span> + <span class="key">shift</span> + <span class="letter">R</span> = Refresh from server (new request for materials)</p>
                 <p><span class="key">ctrl</span> + <span class="letter">T</span> = Open a new Tab</p>
                 <p><span class="key">ctrl</span> + <span class="key">shift</span> + <span class="letter">T</span> = Reopen last tab closed</p>
                 <p><span class="key">ctrl</span> + <span class="letter">-</span> = Zoom Out</p> 
                 <p><span class="key">ctrl</span> + <span class="letter">+</span> = Zoom in</p>
+                <!-- 0 is in font that 'slashes' zeros -->
+                <p><span class="key">ctrl</span> + <span class="letter"><span style="font-family:'Consolas', Courier, monospace;">0</span></span> = Reset zoom</p> <!-- 0 is in font that 'slashes' zeros -->
+                <p><span class="key">ctrl</span> + <span class="letter">J</span> = Downloads page</p>
                 <p><span class="key">ctrl</span> + <span class="letter">H</span> = Tab history</p>
                 <p><span class="key">ctrl</span> + <span class="letter">L</span> = Highlights URL</p>
                 <p><span class="key">ctrl</span> + <span class="key">TAB</span> = Move to next/right browser tab</p>
                 <p><span class="key">ctrl</span> + <span class="key">TAB</span> + <span class="key">shift</span> = Move to previous/left browser tab</p>
                 <p><span class="key">ctrl</span> + <span class="stacked">num<br>1-8</span> = Jump to browser tab in number-order</p>
                 <p><span class="key">ctrl</span> + <span class="stacked">num<br>9</span> = Move to the rightmost browser tab</p>
-                <p><span class="stacked">middle<br>click</span> <span class="letter">on a link</span> = Open link in new tab</p>
+                <p><span class="stacked">middle<br>click</span> <span class="letter">on a link</span> = Open in and switch to new tab</p>
+                <p>Hold:<span class="key">ctrl</span> <span class="stacked">left<br>click</span> <span class="letter">on a link</span> = Open in new tab, in the background</p>
             </section>
             <section>
-                <h2> Chromebooks </h2>            
+                <h2> Chromebooks </h2>
+                <p><span class="key">ctrl</span> + <span class="key">shift</span> + <span class="key"><img src="show-windows.svg" alt="show windows"></span> = Screenshot or screen recording</p>
                 <p><span class="key"><i class="fa-solid fa-magnifying-glass"></i></span> + <span class="key">Shift</span> + <span class="key">Space</span> = Emojis and Symbols Menu</p>
-                <p><span class="key">ctrl</span> + <span class="key">Shift</span> + <span class="letter">Q</span>+ <span class="letter">Q</span> =  Sign Out</p>
-                <p><span class="key">esc</span> + <span class="key"><i class="fa-solid fa-arrow-right-rotate"></i></span> + <span class="key"><i class="fa-solid fa-power-off"></i></span> = Factory reset</p>
+                <p><span class="key"><i class="fa-solid fa-magnifying-glass"></i></span> + <span class="letter">V</span> = Open clipboard menu</p>
+                <p><span class="key"><i class="fa-solid fa-magnifying-glass"></i></span> + <span class="letter">L</span> = Lock your screen</p>
+                <p><span class="key">ctrl</span> + <span class="key">Shift</span> + <span class="letter">Q</span> + <span class="letter">Q</span> = Sign Out</p>
+                <p><span class="key">ctrl</span> + <span class="key">Shift</span> + <span class="key">alt</span> + <span class="key"><i class="fa-solid fa-arrow-right-rotate"></i></span> = Barrel-roll your screen</p>
                 <p><span class="key">ctrl</span> + <span class="key"><i class="fa-solid fa-magnifying-glass"></i></span> + <span class="key">esc</span> = Chromebook Diagnostics</p> 
                 <p><span class="key">esc</span> + <span class="key"><i class="fa-solid fa-arrow-right-rotate"></i></span> + <span class="key"><i class="fa-solid fa-power-off"></i></span> = Recovery mode</p>
+                <p>Hold:<span class="key"><i class="fa-solid fa-arrow-left"></i></span> + <span class="key"><i class="fa-solid fa-arrow-right-rotate"></i></span> + <span class="key"><i class="fa-solid fa-power-off"></i></span> for 10+ seconds = Hard reset</p>
+                <p><span class="key">ctrl</span> + <span class="key">alt</span> + <span class="letter">/</span> = Check all keyboard shortcuts</p>
             </section>            
             <section>
                 <h2> Code Editors</h2>            
-                <p>Hold:<span class="key">atl</span> + <span class="stacked">left<br>click</span> = place multiple carets for parallel editing [in VS Code]</p>
-                <p><span class="key">ctrl</span> + <span class="letter">/</span> = comment out for line with caret, or all highlighted text</p>
-                <p><span class="key">ctrl</span> + <span class="key">Shift</span> + <span class="letter">/</span> = un-comment for line with caret, or all highlighted text</p>
-                <p><span class="key">ctrl</span> + <span class="letter">]</span> = add tab for line with caret, or all highlighted text</p>
-                <p><span class="key">ctrl</span> + <span class="letter">[</span> = remove tab for line with caret, or all highlighted text</p>
-                'alt' + 'arrow down' = move line down 					verified (IDEs only, VS-Code verified)
-                'alt' + 'arrow up' = move line up						verified (IDEs only, VS-Code verified)
+                <p><span class="key">ctrl</span> + <span class="letter">/</span> = Comment out for line with caret, or all highlighted text</p>
+                <p><span class="key">ctrl</span> + <span class="key">Shift</span> + <span class="letter">/</span> = Un-comment for line with caret, or all highlighted text</p>
+                <p><span class="key">ctrl</span> + <span class="letter">]</span> = Add tab for line with caret, or all highlighted text</p>
+                <p><span class="key">ctrl</span> + <span class="letter">[</span> = Remove tab for line with caret, or all highlighted text</p>
+                <p><span class="key">alt</span> + <span class="key"><i class="fa-solid fa-arrow-down"></i></span> = Move line down</p>
+                <p><span class="key">alt</span> + <span class="key"><i class="fa-solid fa-arrow-up"></i></span> = Move line up</p>
+                <p>Hold:<span class="key">atl</span> + <span class="stacked">left<br>click</span> = Place multiple carets for parallel editing [in VS Code]</p>
             </section>
             <section>
-                <h2> Accessibility </h2>            
-                <p><span class="key">ctrl</span> + <span class="key"><i class="fa-solid fa-magnifying-glass"></i></span> + H = invert colors</p>
-                Left Alt + Left Shift + PrintScreen = High Contrast (Windows)		verified (win/accessibility)
-                ctrl + shift + refresh = rotates screen 90 degrees clockwise		verified (Chromebook)
-                `ctrl` + `shift` + `alt` + `refresh` = barrel-roll your screen			verified (cb/accessibility)
-
+                <h2>Accessibility</h2>
+                <p><span class="key">ctrl</span> + <span class="key"><i class="fa-solid fa-magnifying-glass"></i></span> + H = Invert colors (Chromebook)</p>
+                <p>left <span class="key">alt</span> + left <span class="key">Shift</span> + <span class="key">Print Screen</span> = High Contrast (Windows)</p>
+                <p><span class="key">ctrl</span> + <span class="key">Shift</span> + <span class="key"><i class="fa-solid fa-arrow-right-rotate"></i></span> = Rotates screen 90 degrees clockwise (Chromebook)</p>
+                <p><span class="key">ctrl</span> + <span class="key">Shift</span> + <span class="letter">Y</span> = Dictionary lookup (Chromebook)</p>
+                <p><span class="key">ctrl</span> + <span class="key">alt</span> + <span class="letter">Z</span> = ChromeVox screen reader (Chromebook)</p>
+                <p><span class="key">ctrl</span> + <span class="key"><span class="fa-solid fa-magnifying-glass"></span></span> + <span class="letter">D</span> = Magnify part of your screen (Chromebook)</p>
+                <p><span class="key">ctrl</span> + <span class="key">Shift</span> + <span class="key">Space</span> = Switch between the keyboard languages you've set up (Chromebook)</p>
+                <p><span class="key">ctrl</span> + <span class="key">Space</span> = Switch to the previous keyboard language you were using. (Chromebook)</p>
             </section>
         </div>
     </main>
     <footer>
-        <p><strong>[!NOTE]</strong> hotkeys can vary with operating systems & software.</p>
+        <p><strong>[!NOTE]</strong> Hotkeys can vary with operating systems & software.</p>
         <p><span class="key" style="padding:3px 3px 0px 3px;">⌘</span> on Mac is equal to <span class="key" style="padding:3px 3px 0px 3px;">ctrl</span> for most of the commands shown.</p>
         <p>Created by Mr. Rice & Mason High School Computer Science students, 2024</p>
         <p>More hotkeys:
