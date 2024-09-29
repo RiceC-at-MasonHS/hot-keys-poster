@@ -1,11 +1,20 @@
-*{
+/* *{
     border: 1px red solid;
+} */
+
+/* p{
+    border: 1px red dashed;
+} */
+
+main{
+    max-width: 1250px;
+    margin: 0 auto;
 }
 
 #all_sections {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Create three equal columns */
-    gap: 20px; /* Add some gap between columns */
+    gap: 35px; /* Add some gap between columns */
     grid-auto-flow: dense; /* Fill in gaps with items that fit */
 }
 
