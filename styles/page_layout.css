@@ -1,3 +1,23 @@
-/* *{
+*{
     border: 1px red solid;
-} */
+}
+
+#all_sections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create three equal columns */
+    gap: 20px; /* Add some gap between columns */
+    grid-auto-flow: dense; /* Fill in gaps with items that fit */
+}
+
+section {
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.long {
+    -moz-text-align-last: right; /* adjusted to keep item inline */; /* For Firefox prior 58.0 */
+    text-align-last: right;
+}
+
+.pretty{
+    text-wrap: pretty;
+}
