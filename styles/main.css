@@ -51,6 +51,7 @@ footer{
 .letter::before, .letter::after{
     content: "'";
 }
+
 .stacked {
     display: inline-flex;
     align-items: center;
@@ -64,7 +65,6 @@ footer{
     border-radius: 3px;
     background-color: #030303;
     color: #f0f0f0;
-
 }
 
 .key:hover{
